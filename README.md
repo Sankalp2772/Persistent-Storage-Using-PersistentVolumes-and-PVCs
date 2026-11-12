@@ -139,7 +139,7 @@ This project uses a `hostPath` PersistentVolume for demonstration purposes. Sinc
 
 For production multi-node environments, shared or network-backed storage should be used.
 
-## ✅ Result
+##  Result
 
 The application successfully stored data using a PersistentVolume and PersistentVolumeClaim. After the original Pod was deleted and automatically recreated by the Deployment, the new Pod successfully accessed the previously stored data.
 
